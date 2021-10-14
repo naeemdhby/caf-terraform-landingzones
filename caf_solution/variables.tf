@@ -88,6 +88,11 @@ variable "enable" {
   }
 }
 
+variable "marketplace_agreement" {
+  description = "Marketplace Agreement"
+  default = {}
+}
+
 variable "environment" {
   description = "Name of the CAF environment."
   type        = string
